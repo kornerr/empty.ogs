@@ -16,4 +16,4 @@ node
             rotation = -45.000000 0.000000 0.000000
             material = ball
             model = models/ball.osgt
-            selectable = 1
+            script = scripts/Ball.py
