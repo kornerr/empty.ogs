@@ -11,10 +11,13 @@ and to explain OGS project hierarchy to newcomers.
 Hierarchy
 =========
 .
-├── default.actions      │ Contains an action to rotate the ball by 360
-│                        │ degrees over 1000 milliseconds.
-│                        │ An action is a set of node property changes. This
-│                        │ file contains the set loaded by default.
+├── default.actions      
+│
+│ Contains a list of actions. An action is a set of node property changes.
+│ In this case, it contains single action to rotate the ball by 360 degrees
+│ for 1000 milliseconds.
+│ Loaded by default.
+│
 ├── default.compositor   │
 ├── default.lights       │
 ├── default.scene        ││
