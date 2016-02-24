@@ -15,7 +15,7 @@ Hierarchy
 │
 │   Contains a list of actions. An action is a set of node property changes.
 │   In this case, it contains single action to rotate the ball by 360 degrees
-│   over Y axis for 1000 milliseconds.
+│   along Y axis for 1000 milliseconds.
 │   Loaded by default.
 │
 ├── default.compositor   │
