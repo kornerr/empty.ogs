@@ -1,6 +1,41 @@
 
-This is a so-called empty project for OGS Editor. This project contains the
-bare minimum of what a normal OGS project could contain. Its purpose is to
-serve as a starting point for all new projects and to explain OGS project
-hierarchy to newcomers.
+This is a so-called empty project for OGS Editor.
 
+Description
+===========
+
+This project contains the bare minimum of what a normal OGS project could
+contain. Its purpose is to serve as a starting point for all new projects
+and to explain OGS project hierarchy to newcomers.
+
+Hierarchy
+=========
+.
+├── default.actions      │ Contains an action to rotate the ball by 360
+│                        │ degrees over 1000 milliseconds.
+│                        │ An action is a set of node property changes. This
+│                        │ file contains the set loaded by default.
+├── default.compositor   │
+├── default.lights       │
+├── default.scene        ││
+├── default.sounds       │
+├── models               │
+│   └── ball.osgt        │
+├── pipeline             │
+│   └── textures         │
+│       ├── ball_n.png   ││
+│       └── ball_tex.png │
+├── player.shortcuts     │
+├── README               │
+├── scripts              │
+│   ├── Ball.py          │
+│   ├── Ball.pyc         ││
+│   ├── Main.py          │
+│   └── Main.pyc         │
+├── sounds               │
+│   ├── start.ogg        │
+│   └── start.README     │
+└── src                  │
+    └── models.blend
+
+6 directories, 17 files
