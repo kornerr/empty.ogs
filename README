@@ -1,3 +1,6 @@
 
-Empty project for OGS Editor
+This is a so-called empty project for OGS Editor. This project contains the
+bare minimum of what a normal OGS project could contain. Its purpose is to
+serve as a starting point for all new projects and to explain OGS project
+hierarchy to newcomers.
 
