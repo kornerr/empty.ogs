@@ -52,38 +52,42 @@ Hierarchy
 │   Loaded by default.
 │
 ├── models
-│   │
-│       
-│   Contains a list of models in OpenSceneGraph format. You can use
-│   "osgexport" Blender exporter to generate it.
-│
+│   │    
+│   │   Contains models in OpenSceneGraph format. You can use
+│   │   "osgexport" Blender exporter to generate it.
 │   │ 
 │   └── ball.osgt
 │
 │       Ball model for the ball scene node.
 │
-├── pipeline             │
-│   └── textures         │
-│       ├── ball_n.png   ││
-│       └── ball_tex.png │
+├── pipeline
+│   │
+│   │   Contains shaders and other pipeline related files.
+│   │   In this case, the project uses standard pipeline, so the
+│   │   directory has no files.
+│   │
+│   └── textures
+│       │
+│       │   Contains PNG files that represent textures.
+│       │
+│       ├── ball_n.png
+│       │   
+│       │   Normal map (texture) for the ball material.
+│       │    
+│       └── ball_tex.png
 │
+│           Diffuse map (texture) for the ball material.
 │
+├── player.shortcuts
 │
+│   Contains a list of shortcuts for when the project is run
+│   by the Player.
+│   In this case, it specifies that LMB click triggers 'select'
+│   shortcut activation.
 │
+├── README
 │
-│
-│
-├── player.shortcuts     │
-│
-│
-│
-│
-│
-│
-│
-├── README               │
-│
-│
+│   This file.
 │
 │
 │
