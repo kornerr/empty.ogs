@@ -89,32 +89,40 @@ Hierarchy
 │
 │   This file.
 │
+├── scripts
+│   │
+│   │   Contains Python scripts for scene nodes. Each script exports
+│   │   its own API into Environment that is shared among the engine
+│   │   and all scripts.
+│   │
+│   ├── Ball.py
+│   │
+│   │   Provides 'ball...moving' API to rotate the ball. Rotation is
+│   │   performed by the above mentioned rotation action.
+│   │
+│   └── Main.py
 │
+│       Subscribes to the space key press. When that happens, uses the
+│       above mentioned API to rotate the ball. Also, replays the above
+│       mentioned game start sound at the same time.
 │
+├── sounds
+│   │
+│   │   Contains sounds in OGG format.
+│   │
+│   ├── start.ogg
+│   │
+│   │   Sound to replay when space key is pressed.
+│   │
+│   └── start.README
 │
+│       Explains where the sound file comes from.
 │
-├── scripts              │
-│   ├── Ball.py          │
-│   ├── Ball.pyc         ││
-│   ├── Main.py          │
-│   └── Main.pyc         │
-│
-│
-│
-│
-│
-│
-│
-├── sounds               │
-│   ├── start.ogg        │
-│   └── start.README     │
-│
-│
-│
-│
-│
-│
-│
-└── src                  │
+└── src
+    │
+    │   Contains sources for necessary resources.
+    │
     └── models.blend
+
+        Contains the ball model in Blender format.
 
