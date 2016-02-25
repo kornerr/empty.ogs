@@ -112,7 +112,7 @@ Hierarchy
 │   │
 │   ├── start.ogg
 │   │
-│   │   Sound to replay when space key is pressed.
+│   │   Sound to replay when the space key is pressed.
 │   │
 │   └── start.README
 │
@@ -124,5 +124,6 @@ Hierarchy
     │
     └── models.blend
 
-        Contains the ball model in Blender format.
+        Contains the ball model in Blender format. It was used to generate
+        the model itself and its normal map (texture).
 
