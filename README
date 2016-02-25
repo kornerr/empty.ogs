@@ -14,8 +14,8 @@ Hierarchy
 ├── default.actions
 │
 │   Contains a list of actions. An action is a set of node property changes.
-│   In this case, it contains single action to rotate the ball by 360 degrees
-│   along Y axis for 1000 milliseconds.
+│   In this case, it contains single action to rotate a scene node by 360
+│   degrees along Y axis for 1000 milliseconds.
 │   Loaded by default.
 │
 ├── default.compositor
@@ -41,22 +41,22 @@ Hierarchy
 │
 ├── default.sounds
 │
-│   Contains a list of sound buffers and streams. Sound buffer is
-│   an in-memory sound representation. Sound stream
-In this case, it contains sound buffer referencing 'start.ogg'.
+│   Contains a list of sounds. Sound can be represented as a buffer
+│   and a stream. Buffer keeps its data in memory (suitable to replay
+│   clicks, selections and other short files), whereas stream reads data
+│   from a file continuously (suitable to replay a background music).
+│   In this case, it contains a sound buffer to replay on game start.
 │
+├── models
+│   │
+│       
+│   Contains a list of models in OpenSceneGraph format. You can use
+│   "osgexport" Blender exporter to generate it.
 │
+│   │ 
+│   └── ball.osgt
 │
-│
-│
-├── models               │
-│   └── ball.osgt        │
-│
-│
-│
-│
-│
-│
+│       Ball model for the ball scene node.
 │
 ├── pipeline             │
 │   └── textures         │
