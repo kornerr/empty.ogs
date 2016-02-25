@@ -11,33 +11,102 @@ and to explain OGS project hierarchy to newcomers.
 Hierarchy
 =========
 .
-├── default.actions      
+├── default.actions
 │
 │   Contains a list of actions. An action is a set of node property changes.
 │   In this case, it contains single action to rotate the ball by 360 degrees
 │   along Y axis for 1000 milliseconds.
 │   Loaded by default.
 │
-├── default.compositor   │
-├── default.lights       │
-├── default.scene        ││
-├── default.sounds       │
+├── default.compositor
+│
+│   Contains a list of materials. A material is a set of textures applied
+│   to a node's model.
+│   In this case, it contains diffuse and normal maps (textures) applied
+│   to the ball.
+│
+├── default.lights
+│
+│   Contains a list of lights. Only directional lights are supported at
+│   the moment.
+│   In this case, it contains a light with soft shadow map configuration.
+│
+├── default.scene
+│
+│   Contains a list of scene nodes and their relationship (parent-child).
+│   In this case, it contains:
+│   * light
+│   * camera
+│   * ball
+│
+├── default.sounds
+│
+│   Contains a list of sound buffers and streams. Sound buffer is
+│   an in-memory sound representation. Sound stream
+In this case, it contains sound buffer referencing 'start.ogg'.
+│
+│
+│
+│
+│
 ├── models               │
 │   └── ball.osgt        │
+│
+│
+│
+│
+│
+│
+│
 ├── pipeline             │
 │   └── textures         │
 │       ├── ball_n.png   ││
 │       └── ball_tex.png │
+│
+│
+│
+│
+│
+│
+│
 ├── player.shortcuts     │
+│
+│
+│
+│
+│
+│
+│
 ├── README               │
+│
+│
+│
+│
+│
+│
+│
 ├── scripts              │
 │   ├── Ball.py          │
 │   ├── Ball.pyc         ││
 │   ├── Main.py          │
 │   └── Main.pyc         │
+│
+│
+│
+│
+│
+│
+│
 ├── sounds               │
 │   ├── start.ogg        │
 │   └── start.README     │
+│
+│
+│
+│
+│
+│
+│
 └── src                  │
     └── models.blend
 
