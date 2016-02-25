@@ -24,12 +24,14 @@ Hierarchy
 │   to a node's model.
 │   In this case, it contains diffuse and normal maps (textures) applied
 │   to the ball.
+│   Loaded by default.
 │
 ├── default.lights
 │
 │   Contains a list of lights. Only directional lights are supported at
 │   the moment.
 │   In this case, it contains a light with soft shadow map configuration.
+│   Loaded by default.
 │
 ├── default.scene
 │
@@ -38,6 +40,7 @@ Hierarchy
 │   * light
 │   * camera
 │   * ball
+│   Loaded by default.
 │
 ├── default.sounds
 │
@@ -46,6 +49,7 @@ Hierarchy
 │   clicks, selections and other short files), whereas stream reads data
 │   from a file continuously (suitable to replay a background music).
 │   In this case, it contains a sound buffer to replay on game start.
+│   Loaded by default.
 │
 ├── models
 │   │
@@ -110,4 +114,3 @@ Hierarchy
 └── src                  │
     └── models.blend
 
-6 directories, 17 files
