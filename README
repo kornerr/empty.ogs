@@ -97,9 +97,9 @@ Hierarchy
 │   │
 │   └── Main.py
 │
-│       Subscribes to the space key press. When that happens, uses the
-│       above mentioned API to rotate the ball. Also, replays the above
-│       mentioned game start sound at the same time.
+│       Subscribes to the space key press. When the key is pressed, it
+│       uses the above mentioned API to rotate the ball. Also, replays
+│       the above mentioned game start sound at the same time.
 │
 ├── sounds
 │   │
